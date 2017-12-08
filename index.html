@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>index</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/slick-theme.css">
+	<!-- 
+	<link rel="stylesheet" href="libs/slick/slick.css">
+	<link rel="stylesheet" href="libs/slick/slick-theme.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="index-header">
+		<section class="header-menu">
+			<button class="search__open-btn" type="button">Поиск</button>
+
+			<form action="" method="post" class="search  search--closed">
+				<input type="search" name="text" placeholder="Введите название или артикул товара" class="search__place">
+				<input type="submit" name="button" class="search__btn">
+			</form>
+
+			<nav class="index-nav">
+				<ul class="index-nav__list">
+					<li class="index-nav__item"><a href="#" class="index-nav__link  index-nav__link--check">Просмотренные</a></li>
+					<li class="index-nav__item"><a href="#" class="index-nav__link  index-nav__link--sale">Распродажа</a></li>
+					<li class="index-nav__item"><a href="#" class="index-nav__link  index-nav__link--stock">Акции</a></li>
+					<li class="index-nav__item  index-nav__item--basket"><a href="#" class="index-nav__link  index-nav__link--basket">Корзина</a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<section class="contacts">
+			<picture class="logotype">
+				<source media="(max-width: 1159px)" srcset="img/logo-mob.png">
+					<img src="img/logo.png" width="209" height="40" alt="logotype">
+				</picture>
+
+				<p class="contact__item  contact__item--stores"><b>в Москве и</b> <a href="#" class="index-header__link">вашем городе</a></p>
+
+				<p class="contact__item  contact__item--number"><b>Контактный телефон:</b><br>
+					<a href="tel:+" class="contact-number">8-800-2000-3000</a> <a href="#" class="index-header__link">заказать звонок</a>
+				</p>
+
+				<p class="contact__item  contact__item--opening-hours"><b>Работаем круглосуточно</b> <a href="#" class="index-header__link">задать вопрос</a></p>
+			</section>
+
+			<nav class="site-nav">
+				<button class="site-nav__toggle" type="button">Открыть меню</button>
+
+				<ul class="site-nav__list  site-nav__list--closed">
+					<li class="site-nav__item"><a href="#" class="site-nav__link  site-nav__link--first">О магазине</a></li>
+					<li class="site-nav__item"><a href="#" class="site-nav__link">Каталог</a></li>
+					<li class="site-nav__item"><a href="#" class="site-nav__link">Акции</a></li>
+					<li class="site-nav__item"><a href="#" class="site-nav__link">Доставка и оплата</a></li>
+					<li class="site-nav__item"><a href="#" class="site-nav__link">Установка</a></li>
+					<li class="site-nav__item"><a href="#" class="site-nav__link">Оптовикам</a></li>
+					<li class="site-nav__item"><a href="#" class="site-nav__link">Дизайн проекты</a></li>
+					<li class="site-nav__item"><a href="#" class="site-nav__link">Контакты</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="index-main">
+			<section class="site-menu">
+				<button class="site-menu__btn" type="button"><span class="site-menu__btn-text">Меню сайта</span></button>
+
+				<ul class="site-menu__list  site-menu__list--closed">
+					<li class="site-menu__item"><a href="#" class="site-menu__link"><span class="site-menu__link-item  site-menu__link-item--first"></span>Люстры</a></li>
+					<li class="site-menu__item"><a href="#" class="site-menu__link"><span class="site-menu__link-item  site-menu__link-item--second"></span>Светильники</a></li>
+					<li class="site-menu__item"><a href="#" class="site-menu__link"><span class="site-menu__link-item  site-menu__link-item--third"></span>Бра и подсветки</a></li>
+					<li class="site-menu__item"><a href="#" class="site-menu__link"><span class="site-menu__link-item  site-menu__link-item--fourth"></span>Настольные лампы</a></li>
+					<li class="site-menu__item"><a href="#" class="site-menu__link"><span class="site-menu__link-item  site-menu__link-item--fifth"></span>Торшеры</a></li>
+					<li class="site-menu__item"><a href="#" class="site-menu__link"><span class="site-menu__link-item  site-menu__link-item--sixth"></span>Уличное освещение</a></li>
+					<li class="site-menu__item"><a href="#" class="site-menu__link"><span class="site-menu__link-item  site-menu__link-item--seventh"></span>Лампочки</a></li>
+				</ul>
+			</section>
+
+			<section class="advertising-slider  cust-arrows">
+				<div class="advertiseng-slider__item">
+					<img src="img/slider-img2.jpg" alt="1" class="advertising-slider__img">
+				</div>
+				<div class="advertising-slider__item">
+					<img src="img/slider-img2.jpg" alt="2" class="advertising-slider__img">
+				</div>
+			</section>
+
+			<section class="catalog">
+				<div class="catalog__cell">
+					<ul class="cell__list">
+						<li class="cell__item  cell__item--first">
+							<a href="#" class="cell__link  cell__link--first">
+								<p class="item-text">Торшеры<br><span class="item-number">530 товаров</span></p>
+							</a>
+						</li>
+						
+						<li class="cell__item  cell__item--second">
+							<a href="#" class="cell__link  cell__link--second">
+								<p class="item-text">Светильники<br><span class="item-number">20 товаров</span></p>
+							</a>
+						</li>
+						
+						<li class="cell__item  cell__item--third">
+							<a href="#" class="cell__link  cell__link--third">
+								<p class="item-text">Настольные лампы<br><span class="item-number">1352 товара</span></p>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="catalog__cell">
+					<ul class="cell__list">
+						<li class="cell__item  cell__item--fourth">
+							<a href="#" class="cell__link  cell__link--fourth">
+								<p class="item-text">Люстры<br><span class="item-number">533 товара</span></p>
+							</a>
+						</li>
+						
+						<li class="cell__item  cell__item--fifth">
+							<a href="#" class="cell__link  cell__link--fifth">
+								<p class="item-text">Бра и подсветки<br><span class="item-number">533 товара</span></p>
+							</a>
+						</li>
+						
+						<li class="cell__item  cell__item--sixth">
+							<a href="#" class="cell__link  cell__link--sixth">
+								<p class="item-text">Распродажи<br><span class="item-number">533 товара</span></p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="advantages">
+				<strong class="advantages__caption">Почему мы?</strong>
+				<ul class="advantages__list">
+					<li class="advantages__item  advantages__item--white"><b class="advantages__text">более<br> <span class="advantages__number">25 000<br></span></b> товаров в каталоге</li>
+					<li class="advantages__item  advantages__item--white"><b class="advantages__text">заказ от<br> <span class="advantages__number">10 000<br></span></b> рублей позволит получить вам бесплатную доставку</li>
+					<li class="advantages__item  advantages__item--white"><b class="advantages__text"><span class="advantages__number">24<br></span></b> часа в сутки работает бесплатная консультация</li>
+					<li class="advantages__item  advantages__item--white"><b class="advantages__text"><span class="advantages__number">1<br></span></b> день необходим для доставки</li>
+					<li class="advantages__item  advantages__item--img"><span class="advantages__img  advantages__img--calculation"></span>Расчет освещенности любых помещений</li>
+					<li class="advantages__item  advantages__item--img"><span class="advantages__img  advantages__img--wrapping"></span>Собственная дополнительная упаковка комплексных заказов</li>
+					<li class="advantages__item  advantages__item--img"><span class="advantages__img  advantages__img--consultation"></span>Профессиональные консультанты с многолетним опытом</li>
+					<li class="advantages__item  advantages__item--img"><span class="advantages__img  advantages__img--designer"></span>Дизайнер по свету &mdash; светодизайн интерьера и экстерьера</li>
+				</ul>
+			</section>
+
+			<section class="distributors">
+				<strong class="distributors__caption">Наши поставщики</strong>
+				<figure class="distributors__logos">
+					<img src="img/distrib.png" width="982" height="71" alt="distributors">
+				</figure>
+				<a href="#" class="distributors__link">Смотреть всех поставщиков</a>
+			</section>
+
+			<section class="articles">
+				<strong class="articles__caption">Это будет полезно узнать</strong>
+
+				<div class="articles-slider  cust-arrows">
+					<div class="articles-slider__item">
+						<a href="#" class="articles-slider__link">
+							<img src="img/artic-sl1.jpg" alt="slide 1" class="articles-slider__img"><span class="articles-slider__text">
+								<h3 class="articles-slider__caption">Новость 1. Заголовок 1. Умный дом светильники Mr.Beams</h3>
+								<p class="articles-slider__desc">Одна из самых популярных ламп, соответствующая стандартам большинства стран мира</p>
+							</span>
+						</a>
+					</div>
+
+					<div class="articles-slider__item">
+						<a href="#" class="articles-slider__link">
+							<img src="img/artic-sl2.jpg" alt="slide 2" class="articles-slider__img"><span class="articles-slider__text">
+								<h3 class="articles-slider__caption">Новость 2. Заголовок 2. Умный дом светильники Mr.Beams</h3>
+								<p class="articles-slider__desc">Одна из самых популярных ламп, соответствующая стандартам большинства стран мира</p>
+							</span>
+						</a>
+					</div>
+
+					<div class="articles-slider__item">
+						<a href="#" class="articles-slider__link">
+							<img src="img/artic-sl3.jpg" alt="slide 3" class="articles-slider__img"><span class="articles-slider__text">
+								<h3 class="articles-slider__caption">Новость 3. Заголовок 3. Умный дом светильники Mr.Beams</h3>
+								<p class="articles-slider__desc">Одна из самых популярных ламп, соответствующая стандартам большинства стран мира</p>
+							</span>
+						</a>
+					</div>
+
+					<div class="articles-slider__item">
+						<a href="#" class="articles-slider__link">
+							<img src="img/artic-sl3.jpg" alt="slide 3" class="articles-slider__img"><span class="articles-slider__text">
+								<h3 class="articles-slider__caption">Новость 3. Заголовок 3. Умный дом светильники Mr.Beams</h3>
+								<p class="articles-slider__desc">Одна из самых популярных ламп, соответствующая стандартам большинства стран мира</p>
+							</span>
+						</a>
+					</div>
+				</div>
+
+				<a href="#" class="articles__link">Читать все статьи</a>
+			</section>
+
+			<section class="sertification">
+				<strong class="sertification__caption">Сертификаты</strong>
+
+				<div class="sertification-slider  cust-arrows">
+					<div class="sertification-slider__item">
+						<img class="sertification-slider__img" src="img/sert1.jpg" alt="sert1">
+					</div>
+
+					<div class="sertification-slider__item">
+						<img class="sertification-slider__img" src="img/sert2.jpg" alt="sert1">
+					</div>
+
+					<div class="sertification-slider__item">
+						<img class="sertification-slider__img" src="img/sert1.jpg" alt="sert1">
+					</div>
+
+					<div class="sertification-slider__item">
+						<img class="sertification-slider__img" src="img/sert2.jpg" alt="sert1">
+					</div>
+
+					<div class="sertification-slider__item">
+						<img class="sertification-slider__img" src="img/sert2.jpg" alt="sert1">
+					</div>
+				</div>
+
+				<a href="#" class="sertification__link">Смотреть все сертификаты</a>
+			</section>
+
+			<section class="seo">
+				<strong class="seo__caption">СЕО-текст</strong>
+				<p class="seo__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus vel culpa, porro similique cupiditate commodi delectus soluta, sunt odio distinctio corrupti eum ipsam recusandae totam natus, incidunt nulla obcaecati tempora.</p>				
+			</section>
+		</main>
+
+		<footer class="index-footer">
+			<div class="index-footer__contacts">
+				<p class="contacts-dep">Эл. адрес отдела продаж:<br>
+					<a href="#" class="contacts-dep__mail">buy@svet.ru</a>
+				</p>
+				<p class="contacts-dep">Отдел закупок, руководство:<br>
+					<a href="#" class="contacts-dep__mail">support@svet.ru</a>
+				</p>
+				<p class="contacts-dep">Отдел продаж:<br>
+					<a href="tel:+" class="contacts-dep__tel">8(800)2000-3000</a> <span>(многоканальный)</span>
+				</p>
+				<p class="contacts-dep">Отдел продаж для регионов:<br>
+					<a href="tel:+" class="contacts-dep__tel">8(800)2000-3000</a>
+				</p>
+				<p class="social">
+					<span class="social__links">
+						<a href="#" class="social__link  social__link--inst">Instagram</a>
+						<a href="#" class="social__link  social__link--fb">Facebook</a>
+						<a href="#" class="social__link  social__link--vk">Вконтакте</a>
+						<a href="#" class="social__link  social__link--ok">ОК</a>
+						<a href="#" class="social__link  social__link--yt">Youtube</a>
+					</span>
+				</p>
+			</div>
+
+			<div class="index-footer__product">
+				<h6 class="product__caption">Продукция</h6>
+
+				<ul class="product__list">
+					<li class="product__item"><a href="#" class="product__link">Люстры</a></li>
+					<li class="product__item"><a href="#" class="product__link">Светильники</a></li>
+					<li class="product__item"><a href="#" class="product__link">Бра и подсветки</a></li>
+					<li class="product__item"><a href="#" class="product__link">Настольные лампы</a></li>
+					<li class="product__item"><a href="#" class="product__link">Торшеры</a></li>
+					<li class="product__item"><a href="#" class="product__link">Распродажа</a></li>
+				</ul>
+			</div>
+
+			<div class="index-footer__purchaser">
+				<h6 class="purchaser__caption">Покупателю</h6>
+				
+				<ul class="purchaser__list">
+					<li class="purchaser__item"><a href="#" class="purchaser__link">О магазине</a></li>
+					<li class="purchaser__item"><a href="#" class="purchaser__link">Каталог</a></li>
+					<li class="purchaser__item"><a href="#" class="purchaser__link">Доставка и оплата</a></li>
+					<li class="purchaser__item"><a href="#" class="purchaser__link">Установка</a></li>
+					<li class="purchaser__item"><a href="#" class="purchaser__link">Оптовикам</a></li>
+					<li class="purchaser__item"><a href="#" class="purchaser__link">Контакты</a></li>
+				</ul>
+			</div>
+
+			<div class="index-footer__info">
+				<div class="info-payments"></div>
+
+				<form class="info-subscrube">
+					<label for="email" class="info-subscrube__text">Узнайте первыми обо всех акциях<br> из наших рассылок:</label><br>
+					<input type="text" id="email" name="email" placeholder="Ваш адрес эл. почты" class="info-subscrube__email">
+					<input type="submit" class="submit-btn" value="Подписаться">
+				</form>
+			</div>
+
+			<div class="index-footer__description">
+				<p class="description__text">Интернет-магазин Свет &copy; 2008-2017. Все права защищены.</p>
+				<p class="description__text">Предоставленная на сайте информация несет справочный характер. Информация на сайте не является публичной офертой, определяемой положениями Статьи 437 ГК РФ. До оплаты товара удостоверьтесь во всех для вас важных характеристиках в товаре и условиях его эксплуатации.</p>
+			</div>
+		</footer>
+
+<!-- 		<script src="libs/jquery/dist/jquery.min.js"></script>
+		<script src="libs/slick/slick.min.js"></script> -->
+		<script src="js/libs.min.js"></script>
+		<script src="js/common.js"></script>
+		<script src="js/search.js"></script>
+		<script src="js/nav.js"></script>
+		<script src="js/site-menu.js"></script>
+
+	</body>
+	</html>
